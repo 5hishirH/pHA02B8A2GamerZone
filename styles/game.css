@@ -160,3 +160,77 @@ nav {
     border: 2px solid blueviolet;
     width: 75vw;
 }
+
+/* footer related styles */
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0B0223;
+}
+
+.footerContainer {
+    padding: 6.25vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoContainer {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.logoText {
+    color: #fff;
+font-size: 2.8rem;
+font-weight: 700;
+}
+
+.logoText > span {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.importantLinks {
+    display: flex;
+    gap: 3.125vw;
+    margin-top: 3.2vw;
+}
+
+.importantLinks > a {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.socialMedia {
+    display: flex;
+    gap: 2.5vw;
+    margin-top: 2.9vw;
+}
+
+.socialMedia > img {
+    height: 2vw;
+}
+
+.privacyContainer {
+    margin-top: 3.33vw;
+    display: flex;
+    gap: 3.125vw;
+}
+.privacyContainer > a {
+    color: rgba(255, 255, 255, 0.60);
+font-size: 1rem;
+font-weight: 500;
+}
+
+.footerBottomText {
+    color: rgba(255, 255, 255, 0.60);
+font-size: 1rem;
+font-weight: 500;
+margin-top: 1vw;
+}
