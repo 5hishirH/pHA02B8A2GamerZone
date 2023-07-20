@@ -191,11 +191,44 @@ nav {
 }
 
 .video {
+    position: relative;
     width: 24%;
 }
 
 .video > img {
     width: 100%;
+}
+
+.overlay {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 99.5%;
+    height: 21vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    background-color: black;
+    opacity: 0.6;
+    /* color: white; */
+}
+
+.overlay > p {
+    color: #ff42a5;
+}
+
+.overlay > img {
+    width: 20%;
+}
+
+.video:hover .overlay {
+    border: 2px solid #ff42a5;
+    visibility: visible;
 }
 
 .videoBottomText {
@@ -295,6 +328,7 @@ margin-top: 1.25vw;
     /* border: 2px solid blueviolet; */
     border-radius: 3.125rem;
     color: #0B0223;
+    border: 2px solid transparent;
 }
 
 .tertiaryBtn > span {
